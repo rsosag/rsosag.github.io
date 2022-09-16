@@ -1,4 +1,4 @@
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: benbalter/retlab
 title: Rosel's homepage
 description: Bookmark this to keep an eye on my project updates!
