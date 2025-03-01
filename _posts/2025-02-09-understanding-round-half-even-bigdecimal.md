@@ -83,7 +83,7 @@ For example, when formatting prices in a Rails model:
 ```ruby
 class Product < ApplicationRecord
   def formatted_price
-    BigDecimal(price.to_s).round(2, BigDecimal::ROUND_HALF_EVEN).to_s("F")
+    BigDecimal(price.to_s).round(2, BigDecimal::ROUND_HALF_EVEN).to_s('F')
   end
 end
 ```
